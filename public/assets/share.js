@@ -499,7 +499,7 @@
     var pages = [];
     var page = null, band = null;
 
-    function pageTop() { return pages.length === 1 ? firstTop : PAGE.top; }
+    function pageTop() { return pages.length === 0 ? firstTop : PAGE.top; }
     function startPage() {
       page = { bands: [], y: pageTop() };
       pages.push(page);
