@@ -18,9 +18,9 @@
     read: { zh: "进入阅读 →", en: "Read the story →" },
     back: { zh: "← 返回目录", en: "← Back to contents" },
     charCap: { zh: "本期之字", en: "Character of the issue" },
-    satNote: {
-      zh: "本刊文章均属「讽刺与幽默」栏目，如有雷同，请倒过来读。",
-      en: "Everything in this magazine runs under Satire & Humour; if it resembles the facts, read it backwards."
+    colophonNote: {
+      zh: "本刊文章不设栏目之限，正着读是别人的道理，倒着读是自己的事实。",
+      en: "No fixed departments here: forwards, these pieces are somebody else\u2019s morals; backwards, your own facts."
     },
     notFoundTitle: { zh: "本刊没有这一页", en: "This page is not in the issue" },
     notFoundBody: { zh: "它可能被编辑撤下了，或者从来没有排上版。", en: "It may have been pulled by the editors, or never set in type at all." },
@@ -80,7 +80,7 @@
 
   function colophonHtml() {
     return '<footer class="colophon">'
-      + "<p>" + esc(t(UI.satNote)) + "</p>"
+      + "<p>" + esc(t(UI.colophonNote)) + "</p>"
       + '<p class="brandline">' + esc(brandText()) + " · "
       + esc(t(DATA.issue.number)) + " · " + esc(t(DATA.issue.date)) + " · "
       + esc(DATA.issue.site) + "</p>"

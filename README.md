@@ -1,6 +1,6 @@
 # 林意 LINYI
 
-一本想被打印出来的在线杂志。中英双语，讽刺与幽默。
+一本想被打印出来的在线杂志。中英双语。
 
 - 线上地址：<https://linyi.cdqyfdbymn.me>
 - 刊名：「意林」倒过来，便是「林意」。
@@ -30,7 +30,7 @@ wrangler.jsonc    Workers 配置（自定义域名 linyi.cdqyfdbymn.me）
 {
   slug: "my-piece",            // URL 用：article.html?slug=my-piece
   pageNo: "006",               // 目录里的装饰页码
-  kicker: { zh: "讽刺与幽默", en: "Satire & Humour" },
+  kicker: { zh: "观察", en: "Observations" },
   coverChar: { zh: "某", en: "WORD" },  // 封面大字（首页封面取第一篇的）
   title: { zh: "标题", en: "Title" },
   deck: { zh: "导语。", en: "Deck." },

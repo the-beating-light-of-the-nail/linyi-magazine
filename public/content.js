@@ -41,7 +41,7 @@ window.LINYI = {
     {
       slug: "rust",
       pageNo: "004",
-      kicker: { zh: "讽刺与幽默", en: "Satire & Humour" },
+      kicker: { zh: "观察", en: "Observations" },
       coverChar: { zh: "锈", en: "RUST" },
       title: {
         zh: "美国海军终于摆脱了\u201c军舰必须刷漆\u201d的形式主义",
@@ -246,7 +246,7 @@ window.LINYI = {
     {
       slug: "no-gunshots",
       pageNo: "006",
-      kicker: { zh: "讽刺与幽默", en: "Satire & Humour" },
+      kicker: { zh: "观察", en: "Observations" },
       coverChar: { zh: "枪", en: "GUN" },
       title: {
         zh: "在没有枪声的国度，我撕碎了美国持枪证",
@@ -419,7 +419,7 @@ window.LINYI = {
     {
       slug: "niu-lai",
       pageNo: "008",
-      kicker: { zh: "讽刺与幽默", en: "Satire & Humour" },
+      kicker: { zh: "观察", en: "Observations" },
       coverChar: { zh: "牛", en: "OX" },
       title: {
         zh: "我在大连看了一场“烂片”，却看到了真正的文明",
