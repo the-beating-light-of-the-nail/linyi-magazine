@@ -3,7 +3,7 @@
 一本想被打印出来的在线杂志。中英双语。
 
 - 线上地址：<https://linyi.cdqyfdbymn.me>
-- 刊名：「意林」倒过来，便是「林意」。
+- 定位：让中国人觉醒，看见自己；让世界觉醒，看见中国。独立出版，独此一家。
 - 技术形态：纯静态零构建（无框架、无打包），Cloudflare Workers 静态资源直传。
 - 字体：Google Fonts 的 EB Garamond + Noto Serif SC，纸质杂志排版（双栏、首字下沉、跨栏引语、印章红）。
 

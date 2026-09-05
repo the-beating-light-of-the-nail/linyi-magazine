@@ -15,7 +15,7 @@ window.LINYI = {
     latin: "LINYI",
     eyebrow: { zh: "林意杂志社 · 谨呈读者", en: "The Linyi Press · For its readers" },
     tagline: { zh: "一本想被打印出来的在线杂志", en: "An online magazine that asks to be printed" },
-    nameNote: { zh: "「意林」倒过来，便是「林意」。", en: "\u201cYilin\u201d, read backwards, becomes Linyi." }
+    nameNote: { zh: "独立出版，独此一家。", en: "Independently published \u2014 one of a kind." }
   },
   editorNote: {
     pageNo: "002",
@@ -23,17 +23,17 @@ window.LINYI = {
     lines: {
       zh: [
         "《林意》今日创刊。",
-        "「意林」二字倒过来，便是本刊的名字。",
+        "本刊所信：让中国人觉醒，看见自己；让世界觉醒，看见中国。",
         "本刊的编辑方针只有一条：来稿先正着读一遍，再倒过来读一遍。",
         "正着读的，是人家讲的道理；倒过来读的，是自己看见的事实。",
-        "一篇文字若倒读之后依然成立，那它多半是讽刺——恭喜，本刊收了。"
+        "一篇文字若倒读之后依然成立，那它多半另有深意——恭喜，本刊收了。"
       ],
       en: [
         "Linyi is founded today.",
-        "Take the two characters of \u201cYilin\u201d, read them backwards, and you have this magazine\u2019s name.",
+        "What we believe: that China may awake and see itself, and the world may awake and see China.",
         "Our editorial policy is a single rule: every submission is read once forwards, then once more backwards.",
         "Forwards is the moral somebody taught you; backwards are the facts you saw with your own eyes.",
-        "If a piece still holds after being read backwards, it is probably satire \u2014 congratulations, we\u2019ll take it."
+        "If a piece still holds after being read backwards, it carries more than meets the eye \u2014 congratulations, we\u2019ll take it."
       ]
     }
   },
