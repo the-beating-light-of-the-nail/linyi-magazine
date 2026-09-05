@@ -15,6 +15,8 @@ public/
   article.html    文章阅读页（?slug=xxx，data-page="article"）
   404.html        错页
   content.js      全部内容数据（中英双语，按期组织）
+  sitemap.xml     站点地图（新增文章时同步追加一条 <url>）
+  robots.txt      指向 sitemap
   assets/
     style.css     纸质杂志样式
     app.js        双语渲染 + 语言切换（中/EN，localStorage 记忆）
@@ -45,6 +47,7 @@ wrangler.jsonc    Workers 配置（自定义域名 linyi.cdqyfdbymn.me）
 ```
 
 首页封面取 `articles[0]`，目录自动生成，无需改页面代码。
+新文章记得同步在 `public/sitemap.xml` 追加一条 `<url><loc>…article?slug=…</loc></url>`。
 
 ## 分享图
 
