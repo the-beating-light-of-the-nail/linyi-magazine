@@ -18,6 +18,7 @@ public/
   assets/
     style.css     纸质杂志样式
     app.js        双语渲染 + 语言切换（中/EN，localStorage 记忆）
+    share.js      分享图：canvas 现场排印 3:4 卡片（下载 PNG / 长按保存）
 wrangler.jsonc    Workers 配置（自定义域名 linyi.cdqyfdbymn.me）
 ```
 
@@ -44,6 +45,15 @@ wrangler.jsonc    Workers 配置（自定义域名 linyi.cdqyfdbymn.me）
 ```
 
 首页封面取 `articles[0]`，目录自动生成，无需改页面代码。
+
+## 分享图
+
+文章页结尾与首页封面有「生成分享图 / Make a share card」按钮：`assets/share.js` 用 canvas
+现场排印一张 1080×1440（3:4）纸感卡片——刊名印章、coverChar 大字、标题、一条金句、域名。
+无后端、无依赖。金句默认取文章第一条 `pull`，可在文章数据里加 `share: { zh, en }` 指定。
+保存分环境：普通浏览器直接下载 PNG；微信内置浏览器提示长按保存（域名即文字入口，不依赖二维码）。
+
+
 
 ## 部署
 

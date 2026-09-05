@@ -25,7 +25,8 @@
     notFoundTitle: { zh: "本刊没有这一页", en: "This page is not in the issue" },
     notFoundBody: { zh: "它可能被编辑撤下了，或者从来没有排上版。", en: "It may have been pulled by the editors, or never set in type at all." },
     editors: { zh: "编辑部", en: "The editors" },
-    homeTitle: { zh: "林意 LINYI · 创刊号", en: "LINYI · First Issue" }
+    homeTitle: { zh: "林意 LINYI · 创刊号", en: "LINYI · First Issue" },
+    share: { zh: "生成分享图", en: "Make a share card" }
   };
 
   function t(x) {
@@ -118,6 +119,7 @@
       + '<p class="cover-deck">' + esc(t(a.deck)) + "</p>"
       + '<p class="cover-by">' + esc(t(a.byline)) + " · " + esc(t(a.kicker)) + "</p>"
       + '<a class="read-link" href="article.html?slug=' + encodeURIComponent(a.slug) + '">' + esc(t(UI.read)) + "</a>"
+      + '<button type="button" class="share-btn cover-share" data-share="' + encodeURIComponent(a.slug) + '">' + esc(t(UI.share)) + "</button>"
       + "</div></section>";
 
     html += '<div class="rule-thin" aria-hidden="true"></div>';
@@ -207,6 +209,7 @@
       + "</div>"
       + '<div class="art-body">' + body + "</div>"
       + '<div class="end-tomb" aria-hidden="true">■</div>'
+      + '<div class="share-row"><button type="button" class="share-btn" data-share="' + encodeURIComponent(a.slug) + '">' + esc(t(UI.share)) + "</button></div>"
       + "</article>"
       + '<div class="art-folio"><span>' + esc(brandText()) + " · " + esc(t(DATA.issue.number)) + "</span><span>" + esc(a.pageNo) + "</span></div>"
       + colophonHtml();
