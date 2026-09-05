@@ -26,7 +26,8 @@
     notFoundBody: { zh: "它可能被编辑撤下了，或者从来没有排上版。", en: "It may have been pulled by the editors, or never set in type at all." },
     editors: { zh: "编辑部", en: "The editors" },
     homeTitle: { zh: "林意 LINYI · 创刊号", en: "LINYI · First Issue" },
-    share: { zh: "生成分享图", en: "Make a share card" }
+    share: { zh: "生成分享图", en: "Make a share card" },
+    shareFull: { zh: "全文卡片", en: "Full-text pages" }
   };
 
   function t(x) {
@@ -209,7 +210,10 @@
       + "</div>"
       + '<div class="art-body">' + body + "</div>"
       + '<div class="end-tomb" aria-hidden="true">■</div>'
-      + '<div class="share-row"><button type="button" class="share-btn" data-share="' + encodeURIComponent(a.slug) + '">' + esc(t(UI.share)) + "</button></div>"
+      + '<div class="share-row">'
+      + '<button type="button" class="share-btn" data-share="' + encodeURIComponent(a.slug) + '" data-mode="card">' + esc(t(UI.share)) + "</button>"
+      + '<button type="button" class="share-btn" data-share="' + encodeURIComponent(a.slug) + '" data-mode="full">' + esc(t(UI.shareFull)) + "</button>"
+      + "</div>"
       + "</article>"
       + '<div class="art-folio"><span>' + esc(brandText()) + " · " + esc(t(DATA.issue.number)) + "</span><span>" + esc(a.pageNo) + "</span></div>"
       + colophonHtml();
