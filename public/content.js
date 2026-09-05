@@ -404,15 +404,6 @@ window.LINYI = {
           type: "pull",
           zh: "真正的安全感，始于放下武器的勇气，终于守护生命的温情。",
           en: "Real security begins in the courage to lay down a weapon, and ends in the tenderness of guarding life."
-        },
-        {
-          type: "p",
-          zh: [
-            "（作者系《纽约日报》驻北京站记者，现为清华大学访问学者，因深度参与“中国社区治理研究项目”，已携家属定居北京。原文发表于2025年2月8日《纽约日报·意林版》。本博未获作者授权转载，侵删。）"
-          ],
-          en: [
-            "(The author is the Beijing bureau chief of the New York Daily News and a visiting scholar at Tsinghua University; through his deep involvement in the \u201cChina Community Governance Research Project\u201d he has settled in Beijing with his family. First published in the New York Daily News \u00b7 Yilin Edition, 8 February 2025. Reposted without the author\u2019s permission; will be removed upon complaint.)"
-          ]
         }
       ]
     },
@@ -451,14 +442,12 @@ window.LINYI = {
           zh: [
             "电影开场不到五分钟，我就陷入了巨大的困惑。",
             "画面里的牛长着一张仿佛从上世纪末电脑游戏里抠出来的脸，走路时四肢像得了帕金森一样抖动，时不时还会穿模——整只牛凭空穿过墙壁。",
-            "剧情也支离破碎：一头叫“牛来”的小牛做了个梦，梦里妈妈死了，然后它醒了。全剧终。",
-            "—— 新京报"
+            "剧情也支离破碎：一头叫“牛来”的小牛做了个梦，梦里妈妈死了，然后它醒了。全剧终。"
           ],
           en: [
             "Less than five minutes in, I was profoundly confused.",
             "The ox on screen wore a face seemingly cut out of a late-nineties video game; when it walked, its limbs trembled like a Parkinson\u2019s patient\u2019s, and from time to time it clipped through the map \u2014 the whole ox passing clean through a wall.",
-            "The plot was just as ragged: a calf named Niu Lai has a dream; in the dream, his mother dies; then he wakes up. End of film.",
-            "\u2014 The Beijing News"
+            "The plot was just as ragged: a calf named Niu Lai has a dream; in the dream, his mother dies; then he wakes up. End of film."
           ]
         },
         {
@@ -513,16 +502,14 @@ window.LINYI = {
             "出品方的前身，是一家注册资本只有十万元人民币的装修公司；",
             "全片的核心主创，只有两个人——一个九二年出生的非科班导演，和他六十多岁的母亲。",
             "没有专业团队，没有外包，没有AI，耗时五年，零商业投资，纯手工，一帧一帧‘搓’出来的。",
-            "片尾曲，是妈妈自己唱的。”",
-            "—— 新浪"
+            "片尾曲，是妈妈自己唱的。”"
           ],
           en: [
             "He paused, then went on: \u201cDo you know who made this film?",
             "The studio behind it began life as a renovation contractor with 100,000 yuan of registered capital;",
             "its entire core creative team numbers two \u2014 a director born in 1992, never trained at any film school, and his mother, in her sixties.",
             "No professional crew, no outsourcing, no AI; five years of work, zero commercial investment, everything handmade, \u2018kneaded\u2019 into being frame by frame.",
-            "The closing song is sung by the mother herself.\u201d",
-            "\u2014 Sina"
+            "The closing song is sung by the mother herself.\u201d"
           ]
         },
         {
@@ -538,8 +525,7 @@ window.LINYI = {
             "审查只看你的内容有没有触碰红线，不看你的建模精不精致。",
             "一个装修工的儿子，拿着十万块钱，只要手续合规，就能让全国十四亿人在正规影院里看到他的梦。",
             "那些观众的笑声，不是嘲笑这对母子的笨拙，而是在笑——笑自己心底那个也曾想追梦、却被现实告知‘你不配’的自己。",
-            "那些发到网上的盗录，没有人追究，因为所有人都知道，这是一个母亲支持儿子追梦的故事，值得被传播。”",
-            "—— 新湖南"
+            "那些发到网上的盗录，没有人追究，因为所有人都知道，这是一个母亲支持儿子追梦的故事，值得被传播。”"
           ],
           en: [
             "My friend went on:",
@@ -547,8 +533,7 @@ window.LINYI = {
             "The censors look only at whether your content crosses a red line \u2014 never at whether your modelling is exquisite.",
             "The son of a renovation worker, holding a hundred thousand yuan, can \u2014 so long as the paperwork is in order \u2014 put his dream on the screens of proper cinemas for all of 1.4 billion people to see.",
             "That laughter in the hall was not mockery of a clumsy mother and son. They were laughing at themselves \u2014 at the dreamer each once carried inside, the one reality told \u2018you are not worthy.\u2019",
-            "And the bootleg recordings uploaded online? No one pursues them, because everyone knows this is the story of a mother standing behind her son\u2019s dream \u2014 and stories like that deserve to travel.\u201d",
-            "\u2014 New Hunan"
+            "And the bootleg recordings uploaded online? No one pursues them, because everyone knows this is the story of a mother standing behind her son\u2019s dream \u2014 and stories like that deserve to travel.\u201d"
           ]
         },
         {
@@ -623,10 +608,10 @@ window.LINYI = {
         {
           type: "p",
           zh: [
-            "（作者1985年生于美国俄亥俄州克利夫兰，哈佛大学东亚研究硕士，曾供职于《大西洋月刊》，现居纽约，专注跨文化比较写作。）"
+            "（作者1985年生于美国俄亥俄州克利夫兰，哈佛大学东亚研究硕士，现居纽约，专注跨文化比较写作。）"
           ],
           en: [
-            "(The author was born in Cleveland, Ohio, in 1985. He holds a master\u2019s degree in East Asian Studies from Harvard, formerly worked at The Atlantic, and now lives in New York, writing on cross-cultural comparison.)"
+            "(The author was born in Cleveland, Ohio, in 1985. He holds a master\u2019s degree in East Asian Studies from Harvard and now lives in New York, writing on cross-cultural comparison.)"
           ]
         }
       ]
